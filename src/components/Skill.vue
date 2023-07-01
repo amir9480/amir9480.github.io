@@ -7,10 +7,10 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="group border-solid border-2 rounded-md transition transition-all duration-300 p-4 hover:p-2 relative overflow-hidden grayscale hover:filter-none hover:cursor-pointer">
+    <div class="group border-solid border-2 rounded-md duration-300 p-4 relative overflow-hidden grayscale hover:filter-none hover:cursor-pointer">
         <div class="flex flex-col justify-between items-center h-full">
             <div class="grow flex items-center z-10">
-                <img :src="props.image" class="p-4" />
+                <img :src="props.image" class="p-4 transition transition-all group-hover:scale-110" />
             </div>
             <span class="flex-none text-2xl z-10">
                 <slot></slot>
