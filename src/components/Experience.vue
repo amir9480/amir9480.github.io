@@ -16,7 +16,7 @@ const props = defineProps({
                 <div class="md:flex justify-between items-center mb-4">
                     <div class="md:flex justify-between align-middle items-center gap-2 transition md:group-hover:scale-110">
                         <div class="w-16">
-                            <img v-if="props.logo" :src="props.logo" :alt="props.name" class="object-contain w-full rounded-full" loading="lazy" />
+                            <img v-if="props.logo" v-lazy="props.logo" :alt="props.name" class="object-contain w-full rounded-full" loading="lazy" />
                             <i v-else-if="props.icon" class="text-4xl align-middle" :class="props.icon" />
                         </div>
                         <a href="#!" class="font-medium text-xl duration-300 transition ease-in-out">

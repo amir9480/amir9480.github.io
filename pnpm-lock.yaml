@@ -31,6 +31,9 @@ devDependencies:
   vite:
     specifier: ^4.3.9
     version: 4.3.9
+  vue-lazyload:
+    specifier: ^3.0.0
+    version: 3.0.0
   vue-tsc:
     specifier: ^1.4.2
     version: 1.4.2(typescript@5.0.2)
@@ -1221,6 +1224,10 @@ packages:
       rollup: 3.26.0
     optionalDependencies:
       fsevents: 2.3.2
+    dev: true
+
+  /vue-lazyload@3.0.0:
+    resolution: {integrity: sha512-h2keL/Rj550dLgesgOtXJS9qOiSMmuJNeVlfNAYV1/IYwOQYaWk5mFJlwRxmZDK9YC5gECcFLYYj7z1lKSf9ug==}
     dev: true
 
   /vue-template-compiler@2.7.14:

@@ -1,8 +1,9 @@
 import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
+import VueLazyload from 'vue-lazyload'
 
-createApp(App).mount('#app')
+createApp(App).use(VueLazyload).mount('#app')
 
 document.addEventListener('DOMContentLoaded', () => {
     let anchorlinks = document.querySelectorAll('a[href^="#"]');
