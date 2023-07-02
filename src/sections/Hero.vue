@@ -1,8 +1,8 @@
 <template>
     <section id="about" class="hero bg-base-200">
         <div class="flex flex-col-reverse lg:flex-row items-center min-h-screen">
-            <div class="flex self-end">
-                <img v-lazy="'/images/me.webp'" alt="Amir Alizadeh" class="w-full p-24 pb-0 object-contain transition grayscale hover:filter-none opacity-90 hover:opacity-100" />
+            <div class="flex lg:self-end self-center">
+                <img v-lazy="'/images/me.webp'" alt="Amir Alizadeh" class="w-full h-3/4 lg:h-full p-24 pb-0 object-contain transition grayscale hover:filter-none opacity-90 hover:opacity-100" />
             </div>
             <div class="p-10 mt-12 basis-3/4">
                 <p class="text-8xl text-primary">Hi!</p>
