@@ -4,6 +4,7 @@ import Hero from './sections/Hero.vue';
 import Skills from './sections/Skills.vue';
 import Experiences from './sections/Experiences.vue';
 import Projects from './sections/Projects.vue';
+import Contact from './sections/Contact.vue';
 import Footer from './sections/Footer.vue';
 import Navigation from './components/Naviagtion.vue';
 </script>
@@ -20,6 +21,7 @@ import Navigation from './components/Naviagtion.vue';
                 <Skills></Skills>
                 <Experiences></Experiences>
                 <Projects></Projects>
+                <Contact></Contact>
             </main>
 
             <Footer></Footer>

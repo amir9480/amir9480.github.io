@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { defineProps } from 'vue';
-
 const props = defineProps({
     name: { type: String, required: true },
     screenshot: { type: String, default: null },
@@ -16,6 +14,7 @@ const props = defineProps({
                 <img
                     class="w-full h-96 object-cover object-top hover:object-bottom transition-all duration-[5s]"
                     :src="props.screenshot"
+                    :alt="props.name"
                     loading="lazy"
                 />
             </div>
@@ -24,7 +23,7 @@ const props = defineProps({
             <div>
                 <a v-if="props.link != null" :href="link" target="_blank" class="card-title">
                     {{ props.name }}
-                    <img class="w-4" src="/images/icons/external-link.svg" />
+                    <i class="icon-external-link" />
                 </a>
                 <span v-else class="card-title">{{ props.name }}</span>
             </div>

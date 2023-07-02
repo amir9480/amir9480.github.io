@@ -1,5 +1,5 @@
 <template>
-    <div class="divider my-10 transition transition-all text-lg hover:font-bold text-primary uppercase">
+    <div class="divider my-10 text-lg font-bold uppercase">
         <slot></slot>
     </div>
 </template>

@@ -18,18 +18,18 @@ import Skill from '../components/Skill.vue';
         <Divider>My key technical skills</Divider>
         <div class="container mx-auto">
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 lg:px-36 gap-5">
-                <Skill image="/images/skills/php.svg">PHP</Skill>
-                <Skill image="/images/skills/js.svg">JavaScript</Skill>
-                <Skill image="/images/skills/ts.svg">TypeScript</Skill>
-                <Skill image="/images/skills/laravel.svg">Laravel</Skill>
-                <Skill image="/images/skills/vue.svg">Vue.js</Skill>
-                <Skill image="/images/skills/mysql.svg">MySQL</Skill>
-                <Skill image="/images/skills/python.svg">Python</Skill>
-                <Skill image="/images/skills/cpp.svg">C++</Skill>
-                <Skill image="/images/skills/cs.svg">C#</Skill>
-                <Skill image="/images/skills/git.svg">Git</Skill>
-                <Skill image="/images/skills/docker.svg">Docker</Skill>
-                <Skill image="/images/skills/linux.svg">Linux</Skill>
+                <Skill image="/images/skills/php.svg" name="PHP"></Skill>
+                <Skill image="/images/skills/js.svg" name="JavaScript"></Skill>
+                <Skill image="/images/skills/ts.svg" name="TypeScript"></Skill>
+                <Skill image="/images/skills/laravel.svg" name="Laravel"></Skill>
+                <Skill image="/images/skills/vue.svg" name="Vue.js"></Skill>
+                <Skill image="/images/skills/mysql.svg" name="MySQL"></Skill>
+                <Skill image="/images/skills/python.svg" name="Python"></Skill>
+                <Skill image="/images/skills/cpp.svg" name="C++"></Skill>
+                <Skill image="/images/skills/cs.svg" name="C#"></Skill>
+                <Skill image="/images/skills/git.svg" name="Git"></Skill>
+                <Skill image="/images/skills/docker.svg" name="Docker"></Skill>
+                <Skill image="/images/skills/linux.svg" name="Linux"></Skill>
             </div>
         </div>
     </section>

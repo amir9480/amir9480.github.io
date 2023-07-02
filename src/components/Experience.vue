@@ -1,8 +1,7 @@
 <script setup lang="ts">
-import { defineProps } from 'vue';
-
 const props = defineProps({
-    logo: { type: String, required: true },
+    logo: { type: String, required: false },
+    icon: { type: String, required: false },
     name: { type: String, required: true },
     date: { type: String, required: true },
 })
@@ -16,14 +15,15 @@ const props = defineProps({
             <div class="group block w-full p-6 border rounded-lg shadow-lg ml-6 mb-10">
                 <div class="md:flex justify-between items-center mb-4">
                     <div class="md:flex justify-between align-middle items-center gap-2 transition md:group-hover:scale-110">
-                        <div class="w-24">
-                            <img :src="props.logo" class="object-contain rounded-full" />
+                        <div class="w-16">
+                            <img v-if="props.logo" :src="props.logo" :alt="props.name" class="object-contain w-full rounded-full" loading="lazy" />
+                            <i v-else-if="props.icon" class="text-4xl align-middle" :class="props.icon" />
                         </div>
-                        <a href="#!" class="font-medium text-primary text-xl hover:text-primary-700 focus:text-primary-800 duration-300 transition ease-in-out">
+                        <a href="#!" class="font-medium text-xl duration-300 transition ease-in-out">
                             {{ props.name }}
                         </a>
                     </div>
-                    <span class="font-medium text-primary hover:text-primary-700 focus:text-primary-800 duration-300 transition ease-in-out text-sm">
+                    <span class="font-medium duration-300 transition ease-in-out text-sm">
                         {{ props.date }}
                     </span>
                 </div>
