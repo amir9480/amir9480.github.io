@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <a :href="props.link" class="tooltip" :title="props.title" :data-tip="props.title" target="_blank">
-        <i class="text-4xl cursor-pointer hover:text-primary" :class="props.icon"></i>
+    <a :href="props.link" class="tooltip hover:text-primary" :title="props.title" :data-tip="props.title" target="_blank">
+        <i class="text-4xl cursor-pointer" :class="props.icon"></i>
     </a>
 </template>

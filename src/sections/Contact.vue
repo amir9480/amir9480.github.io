@@ -4,10 +4,10 @@ import ContactIcon from '../components/ContactIcon.vue';
 </script>
 
 <template>
-    <section id="skills" class="bg-base-100 m-10">
+    <section id="contact" class="bg-base-100 m-10">
         <Divider>Connect me</Divider>
-        <div class="container mx-auto">
-            <div class="grid grid-cols-3 sm:grid-cols-7 lg:px-36 gap-5">
+        <div class="container">
+            <div class="flex gap-5 justify-center mx-auto">
                 <ContactIcon icon="icon-gmail" title="My Email" link="mailto:amiralizadeh9480@gmail.com" />
                 <ContactIcon icon="icon-linkedin" title="My Linkedin" link="https://www.linkedin.com/in/amir9480/" />
                 <ContactIcon icon="icon-github" title="My Github" link="https://github.com/amir9480" />

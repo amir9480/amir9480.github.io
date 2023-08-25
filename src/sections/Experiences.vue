@@ -23,9 +23,6 @@ import Experience from '../components/Experience.vue';
                 including E-Commerce websites. One of my notable achievements during this time was
                 the development of a Laravel package that simplifies the creation of admin panels, improving speed and ease of use.
             </Experience>
-            <Experience name="Looking for a new job..." date="Now" icon="icon-code">
-                After finishing my mandatory military service, I am currently seeking new job opportunities.
-            </Experience>
         </ol>
     </section>
 </template>
