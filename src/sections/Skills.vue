@@ -22,10 +22,10 @@ import Skill from '../components/Skill.vue';
                 <Skill image="/images/skills/js.svg" name="JavaScript"></Skill>
                 <Skill image="/images/skills/ts.svg" name="TypeScript"></Skill>
                 <Skill image="/images/skills/laravel.svg" name="Laravel"></Skill>
-                <Skill image="/images/skills/vue.svg" name="Vue.js"></Skill>
+                <Skill image="/images/skills/golang.svg" name="Golang"></Skill>
                 <Skill image="/images/skills/mysql.svg" name="MySQL"></Skill>
                 <Skill image="/images/skills/python.svg" name="Python"></Skill>
-                <Skill image="/images/skills/golang.svg" name="Golang"></Skill>
+                <Skill image="/images/skills/cpp.svg" name="C++"></Skill>
                 <Skill image="/images/skills/cs.svg" name="C#"></Skill>
                 <Skill image="/images/skills/git.svg" name="Git"></Skill>
                 <Skill image="/images/skills/docker.svg" name="Docker"></Skill>
