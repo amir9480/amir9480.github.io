@@ -7,13 +7,13 @@ import Experience from '../components/Experience.vue';
     <section id="experiences" class="bg-base-100 m-10">
         <Divider>My experiences</Divider>
         <ol class="mx-auto container lg:w-3/4">
-            <Experience name="Tribes Digital" date="Oct 2023 - Present">
+            <Experience name="Tribes Digital" date="Oct 2023 - Present" logo="/images/experiences/tribeswork_logo.jpg">
                 Developed and launched core features for a hiring platform that uses DevCheck® to improve candidate matching and evaluation.
                 I optimized the database layer to support real-time recomputation of search-specific scores for 30,000+ users, designed scalable microservices for high-traffic long-running tasks, and built a Go-based document generation service that reduced creation time from 15-20 seconds to 2-3 seconds.
                 I also created a secure multi-language code execution engine using Go and nsjail, developed AI-powered interview and candidate-analysis features, automated admin workflows with AI agents, and built a browser automation API with comprehensive OpenAPI documentation.
                 On the operations side, I set up GitHub Actions CI/CD, containerized services with Docker, published images to GHCR, and managed production deployment and incident response workflows.
             </Experience>
-            <Experience name="Confidential (NDA)" date="Sep 2021 - Aug 2023">
+            <Experience name="Confidential (NDA)" date="Sep 2021 - Aug 2023" logo="/images/experiences/nda.png">
                 Built a real-time news search engine that scraped and indexed content from new sources, improving coverage breadth and system reliability through scalable ingestion, normalization, and resilient error handling.
             </Experience>
             <Experience name="Fanora" date="Jun 2019 - Jun 2021" logo="/images/experiences/fanora.webp">

@@ -9,6 +9,14 @@ import Project from '../components/Project.vue';
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
             <Project
+                name="Tribes Agency"
+                link="https://tribes.tech/"
+                screenshot="/images/projects/tribes-screenshot.png"
+                :stacks="['Go', 'GoFiber', 'TypeScript', 'React', 'PostgreSQL', 'Docker', 'AWS']"
+            >
+                Worked on the Tribes agency web platform, building core platform features, AI-assisted hiring workflows, and scalable backend services that support candidate evaluation, document generation, and automation for high-traffic operations.
+            </Project>
+            <Project
                 name="JPH"
                 link="https://jph.ir/"
                 screenshot="/images/projects/jph-screenshot.jpg"
@@ -16,14 +24,6 @@ import Project from '../components/Project.vue';
             >
                 Contributed on developing new e-commerce website for Jame-e-Negar Publishing House (JPH),
                 including migration of all data, users, and features from outdated and inefficient website with limited scalability.
-            </Project>
-            <Project
-                name="Caspian 24"
-                link="https://www.caspian24.ir/"
-                screenshot="/images/projects/caspian24-screenshot.jpg"
-                :stacks="['PHP', 'Laravel', 'MySQL']"
-            >
-                Contributed to the development of a news agency's Backend system, building the system from scratch to meet project requirements.
             </Project>
             <Project
                 name="AsaSara"
