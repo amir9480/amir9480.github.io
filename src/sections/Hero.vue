@@ -7,14 +7,11 @@
             <div class="p-10 mt-12 basis-2/3">
                 <p class="text-8xl text-primary">Hi!</p>
                 <h1 class="text-4xl text-base-100">I'm Amir Alizadeh</h1>
-                <h2 class="text-2xl text-primary">A fullstack web developer</h2>
+                <h2 class="text-2xl text-primary">Backend Software Engineer</h2>
                 <p class="py-6 text-base-100 text-justify">
-                    As a backend developer with expertise in Laravel and PHP, I specialize in building robust web applications
-                    that deliver exceptional user experiences. With a solid foundation in front-end development using JavaScript
-                    and Vue.js, I bring a full-stack perspective to every project.
-                    My passion for exploring new technologies and expanding my skill set drives me to continuously
-                    improve and grow as a developer. Whether working independently or collaborating with a team,
-                    I am committed to delivering high-quality code that exceeds expectations.
+                    Backend Software Engineer with 8+ years of experience designing and deploying scalable, high-performance backend systems.
+                    I specialize in distributed systems, microservices, cloud infrastructure on AWS, and AI-driven automation.
+                    I build reliable platforms, produce clear technical documentation, and optimize complex workflows to deliver measurable business value.
                 </p>
                 <a href="#skills" class="btn btn-primary transition hover:scale-110">My Skills</a>
             </div>

@@ -38,7 +38,7 @@ import Project from '../components/Project.vue';
                 link="https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense"
                 :stacks="['TypeScript', 'PHP', 'Laravel']"
             >
-                An extension I made for vscode editor to provide more code autocomplete for Laravel features with over a million installs.
+                An open-source VS Code extension for Laravel developers with 2,000,000+ downloads on the VS Code Marketplace and 4,000+ GitHub stars.
             </Project>
         </div>
 
